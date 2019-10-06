@@ -1,0 +1,32 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "Karens_Svelte",
+  "version": "0.0.1",
+  "description": "Svelte buttons",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.41.0",
+    "svelte-loader": "^2.13.6",
+    "svelte": "^3.12.1",
+    "webpack-bootstrap": "^0.1.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/svelte"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
